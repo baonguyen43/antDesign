@@ -1,0 +1,17 @@
+.animate {
+  animation: animate 20s infinite linear;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+.h-full {
+  height: max(100vh, 400px);
+}

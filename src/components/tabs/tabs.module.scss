@@ -1,0 +1,54 @@
+.tabBlock {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabList {
+  display: flex;
+}
+
+.tabItem {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666666;
+  background: #f5f5f5;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  border-width: 0;
+
+  &:hover {
+    background-color: #eee;
+  }
+}
+
+// .tabItem:hover {
+//   background-color: #eee;
+// }
+
+.tabActive {
+  background-color: #47B475;
+  color: white;
+
+  &:hover {
+    background-color: #47B475;
+    color: white;
+  }
+}
+
+// .tabActive:hover {
+
+// }
+
+.description {
+  text-align: center;
+}

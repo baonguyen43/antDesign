@@ -1,0 +1,132 @@
+.card {
+  position: relative;
+  max-width: 300px;
+  min-width: 200px;
+  /* background-color: rgba(0, 0, 0, .1); */
+  border-radius: 4px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.discounted {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background-color: red;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  width: fit-content;
+  padding: 4px 8px;
+}
+
+.product-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.price-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.shop_name {
+  color: #5a5a5a;
+  font-size: 14px;
+  text-align: left;
+  margin: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.break-line {
+  padding-top: 10px;
+  border-bottom: 1px solid #cdcdcd;
+
+}
+
+.new_price {
+  font-size: 16px;
+  color: green;
+  font-weight: bold;
+  margin: 0;
+}
+
+.old_price {
+  font-size: 14px;
+  color: #999999;
+  font-weight: lighter;
+  text-decoration: line-through;
+  margin: 0;
+  margin-left: 5px;
+}
+
+.discount {
+  font-size: 13px;
+  color: red;
+  font-weight: lighter;
+  margin: 0;
+  margin-left: 5px;
+}
+
+.product_name {
+  font-size: 16px;
+  color: hsl(27, 90%, 55%);
+  margin: 0;
+  text-align: left;
+  margin-bottom: 8px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 42px;
+}
+
+.product_rate {
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.product_progress {
+  width: 100%;
+  border-radius: 0;
+  height: 14px;
+  color: hsl(27, 90%, 55%);
+}
+
+.product_progress::-moz-progress-bar {
+  background: hsl(27, 90%, 55%);
+}
+
+.product_progress::-webkit-progress-value {
+  background: hsl(27, 90%, 55%);
+}
+
+.product_progress::-webkit-progress-bar {
+  background-color: hsl(210, 8%, 95%);
+}
+
+.product_sold {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+  margin: 0;
+  margin-top: 8px;
+}
